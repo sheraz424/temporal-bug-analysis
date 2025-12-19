@@ -2645,11 +2645,11 @@ prototypes = [
         ]
     ),
     Prototype(
-        regex=re.compile(r"\$fvde\$1\$16\$[\d|\D]{32}\$\d{5}\$[\d|\D]{48}", re.IGNORECASE),
+        regex=re.compile(r"WPA\*0[12]\*([0-9a-fA-F]+)\*", re.IGNORECASE),
         modes=[
             HashInfo(
-                name="FileVault 2",
-                hashcat=16700,
+                name="WPA-PBKDF2-PMKID+EAPOL",
+                hashcat=22000,
                 john=None,
                 extended=False
             ),
