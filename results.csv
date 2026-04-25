@@ -1,0 +1,10 @@
+Repo,Early_None,Middle_None,Late_None,Early_Exception,Middle_Exception,Late_Exception
+fastapi,0.99,0.83,0.48,0.48,0.26,0.08
+black,0.36,0.31,0.78,0.43,0.24,0.2
+click,1.92,1.57,1.19,1.31,1.05,0.58
+pytest,2.53,2.43,2.58,1.47,1.31,0.73
+scrapy,1.16,2.47,2.25,2.34,1.6,1.99
+tern,0.91,0.25,0.31,0.51,0.0,0.0
+typer,1.07,0.98,1.08,0.0,0.29,0.25
+RecoverPy,3.15,4.53,2.34,0.42,0.0,0.16
+Name-That-Hash,0.0,0.0,0.0,0.0,0.49,0.02
